@@ -1,0 +1,64 @@
+.container
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 2fr 2fr;
+  grid-template-areas: "h"
+                       "a"
+                       "p";
+}
+
+#tete
+{
+  grid-area: h;
+}
+
+#arcticle
+{
+  grid-area: a;
+}
+
+#pied
+{
+  grid-area: p;
+}
+
+/*------------------------------------------------------*/
+
+body
+{
+	background-color: infoBackground;
+}
+
+h2
+{
+	text-align: center;
+}
+
+p
+{
+	text-align: left;
+}
+
+.centrer
+{
+	margin-left: 20px;
+    margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#tete
+{
+	text-align: center;
+}
+
+#arcticle
+{
+	text-align: center;
+}
+
+#pied
+{
+	text-align: center;
+}
